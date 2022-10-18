@@ -9,9 +9,9 @@ h1 {
 @page :right {
   @bottom-left {
     margin: 10pt 0 30pt 0;
-    border-top: 0.25pt solid #666;
+    border-top: 0.25pt solid theme('colors.slate.600');
     content: 'Our Dogs';
     font-size: 9pt;
-    @apply text-red-400;
+    color: theme('colors.rose.500');
   }
 }
